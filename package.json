@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080",
+    "build": "[next.js] build --output public"
+  },
   "dependencies": {},
   "devDependencies": {
     "nodemon": "1.18.4"
